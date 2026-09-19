@@ -1,4 +1,4 @@
-# RoverLens — See the middle layer
+# RoverLens: See the middle layer
 
 An interactive HCI prototype based on Md Akib Haider's **Mind the Middle Layer: A Requirements-Driven Study of Wrong Mental Models in LLM-Agent-Controlled Robots** (`hci.pdf`, working draft, 2026), especially Table 1, §5–7 and Table 2. This implements the current plan's opaque-vs-transparent comparison and four priority scenarios.
 
