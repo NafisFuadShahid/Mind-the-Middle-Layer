@@ -1,8 +1,21 @@
-# Mind the Middle Layer — HCI demo
+# RoverLens — See the middle layer
 
-A polished, local HCI prototype based on Md Akib Haider's **Mind the Middle Layer: A Requirements-Driven Study of Wrong Mental Models in LLM-Agent-Controlled Robots** (`hci.pdf`, working draft, 2026), especially Table 1, §5–7 and Table 2. This implements the current plan's opaque-vs-transparent comparison and four priority scenarios.
+An interactive HCI prototype based on Md Akib Haider's **Mind the Middle Layer: A Requirements-Driven Study of Wrong Mental Models in LLM-Agent-Controlled Robots** (`hci.pdf`, working draft, 2026), especially Table 1, §5–7 and Table 2. This implements the current plan's opaque-vs-transparent comparison and four priority scenarios.
 
-**All LLM, code-generation, validation, deployment and robot behavior is simulated.** No hardware, API key, account, package installation or internet service is required. There are no fabricated participant records, study findings, scores or claims of effectiveness.
+**All LLM, code-generation, validation, deployment and robot behavior is simulated.** No hardware, API key, account or package installation is required. The local version also works without internet. There are no fabricated participant records, study findings, scores or claims of effectiveness.
+
+## GitHub Pages
+
+The site is named **RoverLens**; the repository retains the paper's name, **Mind-the-Middle-Layer**.
+
+Deployment URL (available after GitHub Pages finishes its first deployment):
+**https://nafisfuadshahid.github.io/Mind-the-Middle-Layer/**
+
+The workflow in `.github/workflows/pages.yml` checks the JavaScript, runs the simulator tests, and publishes only `dist` on every push to `main`. It also supports a manual run from the Actions tab. No server or API key is needed on GitHub Pages; all interaction and session data stays in the visitor's browser memory.
+
+For initial setup, enable **Settings → Pages → Build and deployment → Source → GitHub Actions** in this repository, then push `main` or run **Publish RoverLens** from the Actions tab. The repository administrator must be authenticated. See the [GitHub Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+
+Only public app assets are deployed. Documentation, tests, Git metadata and exported session logs are not uploaded as site content. The app itself does not send commands or reflections to GitHub; the browser still requests the static site files from GitHub Pages.
 
 ## Start locally
 

@@ -7,3 +7,4 @@ node_modules/
 coverage/
 .sites-runtime/
 middle-layer-session-*.json
+roverlens-session-*.json

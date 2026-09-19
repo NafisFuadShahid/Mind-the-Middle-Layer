@@ -1,9 +1,9 @@
 {
-  "name": "mind-the-middle-layer",
+  "name": "roverlens",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Local HCI robot pipeline simulator; no hardware or LLM API required",
+  "description": "RoverLens: an HCI robot pipeline simulator; no hardware or LLM API required",
   "scripts": { "start": "node server.mjs", "test": "node --test tests/*.test.mjs", "check": "node --check dist/app.js && node --check dist/engine.js && node --check server.mjs" },
   "engines": { "node": ">=18" }
 }
