@@ -1,0 +1,846 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{57}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Ahn et~al\mbox{.}(2022)]%
+        {ahn2022saycan}
+\bibfield{author}{\bibinfo{person}{Michael Ahn}, \bibinfo{person}{Anthony
+  Brohan}, \bibinfo{person}{Noah Brown}, \bibinfo{person}{Yevgen Chebotar},
+  {et~al\mbox{.}}} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Do As I Can, Not As I Say: Grounding Language in
+  Robotic Affordances}. In \bibinfo{booktitle}{\emph{Proceedings of the 6th
+  Conference on Robot Learning (CoRL)}}.
+\newblock
+
+
+\bibitem[Ajaykumar et~al\mbox{.}(2021)]%
+        {ajaykumar2021survey}
+\bibfield{author}{\bibinfo{person}{Gopika Ajaykumar}, \bibinfo{person}{Maureen
+  Steele}, {and} \bibinfo{person}{Chien-Ming Huang}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{A Survey on End-User Robot Programming}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} \bibinfo{volume}{54},
+  \bibinfo{number}{8} (\bibinfo{year}{2021}), \bibinfo{pages}{1--36}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3466819}
+\showDOI{\tempurl}
+
+
+\bibitem[Amershi et~al\mbox{.}(2019)]%
+        {amershi2019guidelines}
+\bibfield{author}{\bibinfo{person}{Saleema Amershi}, \bibinfo{person}{Dan
+  Weld}, \bibinfo{person}{Mihaela Vorvoreanu}, \bibinfo{person}{Adam Fourney},
+  \bibinfo{person}{Besmira Nushi}, \bibinfo{person}{Penny Collisson},
+  \bibinfo{person}{Jina Suh}, \bibinfo{person}{Shamsi Iqbal},
+  \bibinfo{person}{Paul~N. Bennett}, \bibinfo{person}{Kori Inkpen},
+  \bibinfo{person}{Jaime Teevan}, \bibinfo{person}{Ruth Kikin-Gil}, {and}
+  \bibinfo{person}{Eric Horvitz}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Guidelines for Human-{AI} Interaction}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3290605.3300233}
+\showDOI{\tempurl}
+
+
+\bibitem[Bansal et~al\mbox{.}(2019)]%
+        {bansal2019beyond}
+\bibfield{author}{\bibinfo{person}{Gagan Bansal}, \bibinfo{person}{Besmira
+  Nushi}, \bibinfo{person}{Ece Kamar}, \bibinfo{person}{Walter~S. Lasecki},
+  \bibinfo{person}{Daniel~S. Weld}, {and} \bibinfo{person}{Eric Horvitz}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Beyond Accuracy: The Role of Mental Models in
+  Human-{AI} Team Performance}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  AAAI Conference on Human Computation and Crowdsourcing (HCOMP)}},
+  Vol.~\bibinfo{volume}{7}. \bibinfo{pages}{2--11}.
+\newblock
+
+
+\bibitem[{bkrajendra}(2024)]%
+        {rajendra2024arduinollm}
+\bibfield{author}{\bibinfo{person}{{bkrajendra}}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{arduino-llm-agent: Generate, Compile, and Upload
+  {Arduino}/{ESP8266}/{ESP32} Firmware from Natural Language using Local
+  {LLMs}}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\newblock
+\shownote{\url{https://github.com/bkrajendra/arduino-llm-agent}}.
+
+
+\bibitem[Braun and Clarke(2006)]%
+        {braun2006using}
+\bibfield{author}{\bibinfo{person}{Virginia Braun} {and}
+  \bibinfo{person}{Victoria Clarke}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Using Thematic Analysis in Psychology}.
+\newblock \bibinfo{journal}{\emph{Qualitative Research in Psychology}}
+  \bibinfo{volume}{3}, \bibinfo{number}{2} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{77--101}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1191/1478088706qp063oa}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2021)]%
+        {chen2021evaluating}
+\bibfield{author}{\bibinfo{person}{Mark Chen}, \bibinfo{person}{Jerry Tworek},
+  \bibinfo{person}{Heewoo Jun}, \bibinfo{person}{Qiming Yuan},
+  \bibinfo{person}{Henrique~Ponde de Oliveira~Pinto}, \bibinfo{person}{Jared
+  Kaplan}, \bibinfo{person}{Harri Edwards}, \bibinfo{person}{Yuri Burda},
+  \bibinfo{person}{Nicholas Joseph}, \bibinfo{person}{Greg Brockman},
+  {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Evaluating Large Language Models Trained on Code}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2107.03374}.
+\newblock
+
+
+\bibitem[Cockburn et~al\mbox{.}(2018)]%
+        {cockburn2018hark}
+\bibfield{author}{\bibinfo{person}{Andy Cockburn}, \bibinfo{person}{Carl
+  Gutwin}, {and} \bibinfo{person}{Alan Dix}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{HARK} No More: On the Preregistration of {CHI}
+  Experiments}. In \bibinfo{booktitle}{\emph{Proceedings of the 2018 CHI
+  Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3173574.3173715}
+\showDOI{\tempurl}
+
+
+\bibitem[Cohen(1960)]%
+        {cohen1960coefficient}
+\bibfield{author}{\bibinfo{person}{Jacob Cohen}.}
+  \bibinfo{year}{1960}\natexlab{}.
+\newblock \showarticletitle{A Coefficient of Agreement for Nominal Scales}.
+\newblock \bibinfo{journal}{\emph{Educational and Psychological Measurement}}
+  \bibinfo{volume}{20}, \bibinfo{number}{1} (\bibinfo{year}{1960}),
+  \bibinfo{pages}{37--46}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/001316446002000104}
+\showDOI{\tempurl}
+
+
+\bibitem[Cram{\'e}r(1946)]%
+        {cramer1946mathematical}
+\bibfield{author}{\bibinfo{person}{Harald Cram{\'e}r}.}
+  \bibinfo{year}{1946}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Mathematical Methods of Statistics}}.
+\newblock \bibinfo{publisher}{Princeton University Press},
+  \bibinfo{address}{Princeton, NJ}.
+\newblock
+
+
+\bibitem[Desai et~al\mbox{.}(2013)]%
+        {desai2013impact}
+\bibfield{author}{\bibinfo{person}{Munjal Desai}, \bibinfo{person}{Poornima
+  Kaniarasu}, \bibinfo{person}{Mikhail Medvedev}, \bibinfo{person}{Aaron
+  Steinfeld}, {and} \bibinfo{person}{Holly Yanco}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Impact of Robot Failures and Feedback on Real-Time
+  Trust}. In \bibinfo{booktitle}{\emph{Proceedings of the 8th ACM/IEEE
+  International Conference on Human-Robot Interaction (HRI)}}.
+  \bibinfo{pages}{251--258}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/HRI.2013.6483596}
+\showDOI{\tempurl}
+
+
+\bibitem[DeVito et~al\mbox{.}(2017)]%
+        {devito2017algorithms}
+\bibfield{author}{\bibinfo{person}{Michael~A. DeVito}, \bibinfo{person}{Darren
+  Gergle}, {and} \bibinfo{person}{Jeremy Birnholtz}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{``Algorithms Ruin Everything'': \#{RIPTwitter},
+  Folk Theories, and Resistance to Algorithmic Change in Social Media}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2017 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{3163--3174}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3025453.3025659}
+\showDOI{\tempurl}
+
+
+\bibitem[Dragan et~al\mbox{.}(2013)]%
+        {dragan2013legibility}
+\bibfield{author}{\bibinfo{person}{Anca~D. Dragan}, \bibinfo{person}{Kenton
+  C.~T. Lee}, {and} \bibinfo{person}{Siddhartha~S. Srinivasa}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Legibility and Predictability of Robot Motion}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 8th ACM/IEEE International
+  Conference on Human-Robot Interaction (HRI)}}. \bibinfo{pages}{301--308}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/HRI.2013.6483603}
+\showDOI{\tempurl}
+
+
+\bibitem[Dragicevic(2016)]%
+        {dragicevic2016fair}
+\bibfield{author}{\bibinfo{person}{Pierre Dragicevic}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Fair Statistical Communication in {HCI}}.
+\newblock In \bibinfo{booktitle}{\emph{Modern Statistical Methods for HCI}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{291--330}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/978-3-319-26633-6_13}
+\showDOI{\tempurl}
+
+
+\bibitem[Dzindolet et~al\mbox{.}(2003)]%
+        {dzindolet2003role}
+\bibfield{author}{\bibinfo{person}{Mary~T. Dzindolet},
+  \bibinfo{person}{Scott~A. Peterson}, \bibinfo{person}{Regina~A. Pomranky},
+  \bibinfo{person}{Linda~G. Pierce}, {and} \bibinfo{person}{Hall~P. Beck}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{The Role of Trust in Automation Reliance}.
+\newblock \bibinfo{journal}{\emph{International Journal of Human-Computer
+  Studies}} \bibinfo{volume}{58}, \bibinfo{number}{6} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{697--718}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/S1071-5819(03)00038-7}
+\showDOI{\tempurl}
+
+
+\bibitem[Efron(1979)]%
+        {efron1979bootstrap}
+\bibfield{author}{\bibinfo{person}{Bradley Efron}.}
+  \bibinfo{year}{1979}\natexlab{}.
+\newblock \showarticletitle{Bootstrap Methods: Another Look at the Jackknife}.
+\newblock \bibinfo{journal}{\emph{The Annals of Statistics}}
+  \bibinfo{volume}{7}, \bibinfo{number}{1} (\bibinfo{year}{1979}),
+  \bibinfo{pages}{1--26}.
+\newblock
+
+
+\bibitem[Epley et~al\mbox{.}(2007)]%
+        {epley2007seeing}
+\bibfield{author}{\bibinfo{person}{Nicholas Epley}, \bibinfo{person}{Adam
+  Waytz}, {and} \bibinfo{person}{John~T. Cacioppo}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{On Seeing Human: A Three-Factor Theory of
+  Anthropomorphism}.
+\newblock \bibinfo{journal}{\emph{Psychological Review}} \bibinfo{volume}{114},
+  \bibinfo{number}{4} (\bibinfo{year}{2007}), \bibinfo{pages}{864--886}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1037/0033-295X.114.4.864}
+\showDOI{\tempurl}
+
+
+\bibitem[Ericsson and Simon(1993)]%
+        {ericsson1993protocol}
+\bibfield{author}{\bibinfo{person}{K.~Anders Ericsson} {and}
+  \bibinfo{person}{Herbert~A. Simon}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Protocol Analysis: Verbal Reports as Data}
+  (\bibinfo{edition}{revised} ed.)}.
+\newblock \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA}.
+\newblock
+
+
+\bibitem[Eslami et~al\mbox{.}(2016)]%
+        {eslami2016first}
+\bibfield{author}{\bibinfo{person}{Motahhare Eslami}, \bibinfo{person}{Karrie
+  Karahalios}, \bibinfo{person}{Christian Sandvig}, \bibinfo{person}{Kristen
+  Vaccaro}, \bibinfo{person}{Aimee Rickman}, \bibinfo{person}{Kevin Hamilton},
+  {and} \bibinfo{person}{Alex Kirlik}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{First I ``Like'' It, Then I Hide It: Folk Theories
+  of Social Feeds}. In \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI
+  Conference on Human Factors in Computing Systems}}.
+  \bibinfo{pages}{2371--2382}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2858036.2858494}
+\showDOI{\tempurl}
+
+
+\bibitem[Eslami et~al\mbox{.}(2015)]%
+        {eslami2015always}
+\bibfield{author}{\bibinfo{person}{Motahhare Eslami}, \bibinfo{person}{Aimee
+  Rickman}, \bibinfo{person}{Kristen Vaccaro}, \bibinfo{person}{Amirhossein
+  Aleyasen}, \bibinfo{person}{Andy Vuong}, \bibinfo{person}{Karrie Karahalios},
+  \bibinfo{person}{Kevin Hamilton}, {and} \bibinfo{person}{Christian Sandvig}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{``I Always Assumed That I Wasn't Really That Close
+  to [Her]'': Reasoning about Invisible Algorithms in News Feeds}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM Conference on
+  Human Factors in Computing Systems (CHI '15)}}. \bibinfo{pages}{153--162}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2702123.2702556}
+\showDOI{\tempurl}
+
+
+\bibitem[Gero et~al\mbox{.}(2020)]%
+        {gero2020mental}
+\bibfield{author}{\bibinfo{person}{Katy~Ilonka Gero}, \bibinfo{person}{Zahra
+  Ashktorab}, \bibinfo{person}{Casey Dugan}, \bibinfo{person}{Qian Pan},
+  \bibinfo{person}{James Johnson}, \bibinfo{person}{Werner Geyer},
+  \bibinfo{person}{Maria Ruiz}, \bibinfo{person}{Sarah Miller},
+  \bibinfo{person}{David~R. Millen}, \bibinfo{person}{Murray Campbell},
+  \bibinfo{person}{Sadhana Kumaravel}, {and} \bibinfo{person}{Wei Zhang}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Mental Models of {AI} Agents in a Cooperative Game
+  Setting}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 CHI Conference
+  on Human Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3313831.3376316}
+\showDOI{\tempurl}
+
+
+\bibitem[Hancock et~al\mbox{.}(2011)]%
+        {hancock2011meta}
+\bibfield{author}{\bibinfo{person}{Peter~A. Hancock},
+  \bibinfo{person}{Deborah~R. Billings}, \bibinfo{person}{Kristin~E. Schaefer},
+  \bibinfo{person}{Jessie Y.~C. Chen}, \bibinfo{person}{Ewart~J. de Visser},
+  {and} \bibinfo{person}{Raja Parasuraman}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{A Meta-Analysis of Factors Affecting Trust in
+  Human-Robot Interaction}.
+\newblock \bibinfo{journal}{\emph{Human Factors}} \bibinfo{volume}{53},
+  \bibinfo{number}{5} (\bibinfo{year}{2011}), \bibinfo{pages}{517--527}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1177/0018720811417254}
+\showDOI{\tempurl}
+
+
+\bibitem[Hart and Staveland(1988)]%
+        {hart1988nasa}
+\bibfield{author}{\bibinfo{person}{Sandra~G. Hart} {and}
+  \bibinfo{person}{Lowell~E. Staveland}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Development of {NASA-TLX} ({Task Load Index}):
+  Results of Empirical and Theoretical Research}.
+\newblock In \bibinfo{booktitle}{\emph{Human Mental Workload}}.
+  \bibinfo{series}{Advances in Psychology}, Vol.~\bibinfo{volume}{52}.
+  \bibinfo{publisher}{North-Holland}, \bibinfo{pages}{139--183}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/S0166-4115(08)62386-9}
+\showDOI{\tempurl}
+
+
+\bibitem[Hestenes et~al\mbox{.}(1992)]%
+        {hestenes1992force}
+\bibfield{author}{\bibinfo{person}{David Hestenes}, \bibinfo{person}{Malcolm
+  Wells}, {and} \bibinfo{person}{Gregg Swackhamer}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Force Concept Inventory}.
+\newblock \bibinfo{journal}{\emph{The Physics Teacher}} \bibinfo{volume}{30},
+  \bibinfo{number}{3} (\bibinfo{year}{1992}), \bibinfo{pages}{141--158}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1119/1.2343497}
+\showDOI{\tempurl}
+
+
+\bibitem[Honig and Oron-Gilad(2018)]%
+        {honig2018understanding}
+\bibfield{author}{\bibinfo{person}{Shanee Honig} {and} \bibinfo{person}{Tal
+  Oron-Gilad}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Understanding and Resolving Failures in Human-Robot
+  Interaction: Literature Review and Model Development}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Psychology}}
+  \bibinfo{volume}{9} (\bibinfo{year}{2018}), \bibinfo{pages}{861}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.3389/fpsyg.2018.00861}
+\showDOI{\tempurl}
+
+
+\bibitem[Hutchins et~al\mbox{.}(1985)]%
+        {hutchins1985direct}
+\bibfield{author}{\bibinfo{person}{Edwin~L. Hutchins},
+  \bibinfo{person}{James~D. Hollan}, {and} \bibinfo{person}{Donald~A. Norman}.}
+  \bibinfo{year}{1985}\natexlab{}.
+\newblock \showarticletitle{Direct Manipulation Interfaces}.
+\newblock \bibinfo{journal}{\emph{Human--Computer Interaction}}
+  \bibinfo{volume}{1}, \bibinfo{number}{4} (\bibinfo{year}{1985}),
+  \bibinfo{pages}{311--338}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1207/s15327051hci0104_2}
+\showDOI{\tempurl}
+
+
+\bibitem[Johnson-Laird(1983)]%
+        {johnsonlaird1983mental}
+\bibfield{author}{\bibinfo{person}{Philip~N. Johnson-Laird}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Mental Models: Towards a Cognitive Science
+  of Language, Inference, and Consciousness}}.
+\newblock \bibinfo{publisher}{Harvard University Press},
+  \bibinfo{address}{Cambridge, MA}.
+\newblock
+
+
+\bibitem[Joshi et~al\mbox{.}(2020)]%
+        {joshi2020state}
+\bibfield{author}{\bibinfo{person}{Pratik Joshi}, \bibinfo{person}{Sebastin
+  Santy}, \bibinfo{person}{Amar Budhiraja}, \bibinfo{person}{Kalika Bali},
+  {and} \bibinfo{person}{Monojit Choudhury}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The State and Fate of Linguistic Diversity and
+  Inclusion in the {NLP} World}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 58th Annual Meeting of the Association for Computational Linguistics
+  (ACL)}}. \bibinfo{pages}{6282--6293}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/2020.acl-main.560}
+\showDOI{\tempurl}
+
+
+\bibitem[Kieras and Bovair(1984)]%
+        {kieras1984role}
+\bibfield{author}{\bibinfo{person}{David~E. Kieras} {and}
+  \bibinfo{person}{Susan Bovair}.} \bibinfo{year}{1984}\natexlab{}.
+\newblock \showarticletitle{The Role of a Mental Model in Learning to Operate a
+  Device}.
+\newblock \bibinfo{journal}{\emph{Cognitive Science}} \bibinfo{volume}{8},
+  \bibinfo{number}{3} (\bibinfo{year}{1984}), \bibinfo{pages}{255--273}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1207/s15516709cog0803_3}
+\showDOI{\tempurl}
+
+
+\bibitem[Kim and Hinds(2006)]%
+        {kim2006blame}
+\bibfield{author}{\bibinfo{person}{Taemie Kim} {and} \bibinfo{person}{Pamela
+  Hinds}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Who Should {I} Blame? Effects of Autonomy and
+  Transparency on Attributions in Human-Robot Interaction}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 15th IEEE International
+  Symposium on Robot and Human Interactive Communication (RO-MAN)}}.
+  \bibinfo{pages}{80--85}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ROMAN.2006.314398}
+\showDOI{\tempurl}
+
+
+\bibitem[Kocielnik et~al\mbox{.}(2019)]%
+        {kocielnik2019accept}
+\bibfield{author}{\bibinfo{person}{Rafal Kocielnik}, \bibinfo{person}{Saleema
+  Amershi}, {and} \bibinfo{person}{Paul~N. Bennett}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Will You Accept an Imperfect {AI}? Exploring
+  Designs for Adjusting End-User Expectations of {AI} Systems}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3290605.3300641}
+\showDOI{\tempurl}
+
+
+\bibitem[Krippendorff(2018)]%
+        {krippendorff2018content}
+\bibfield{author}{\bibinfo{person}{Klaus Krippendorff}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Content Analysis: An Introduction to Its
+  Methodology} (\bibinfo{edition}{4th} ed.)}.
+\newblock \bibinfo{publisher}{SAGE Publications}, \bibinfo{address}{Thousand
+  Oaks, CA}.
+\newblock
+
+
+\bibitem[Kulesza et~al\mbox{.}(2012)]%
+        {kulesza2012tell}
+\bibfield{author}{\bibinfo{person}{Todd Kulesza}, \bibinfo{person}{Simone
+  Stumpf}, \bibinfo{person}{Margaret Burnett}, {and} \bibinfo{person}{Irwin
+  Kwan}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Tell Me More? The Effects of Mental Model Soundness
+  on Personalizing an Intelligent Agent}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems (CHI '12)}}. \bibinfo{pages}{1--10}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2207676.2207678}
+\showDOI{\tempurl}
+
+
+\bibitem[Kulesza et~al\mbox{.}(2013)]%
+        {kulesza2013too}
+\bibfield{author}{\bibinfo{person}{Todd Kulesza}, \bibinfo{person}{Simone
+  Stumpf}, \bibinfo{person}{Margaret Burnett}, \bibinfo{person}{Sherry Yang},
+  \bibinfo{person}{Irwin Kwan}, {and} \bibinfo{person}{Weng-Keen Wong}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Too Much, Too Little, or Just Right? Ways
+  Explanations Impact End Users' Mental Models}. In
+  \bibinfo{booktitle}{\emph{2013 IEEE Symposium on Visual Languages and Human
+  Centric Computing (VL/HCC)}}. \bibinfo{pages}{3--10}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/VLHCC.2013.6645235}
+\showDOI{\tempurl}
+
+
+\bibitem[Lee and See(2004)]%
+        {lee2004trust}
+\bibfield{author}{\bibinfo{person}{John~D. Lee} {and}
+  \bibinfo{person}{Katrina~A. See}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Trust in Automation: Designing for Appropriate
+  Reliance}.
+\newblock \bibinfo{journal}{\emph{Human Factors: The Journal of the Human
+  Factors and Ergonomics Society}} \bibinfo{volume}{46}, \bibinfo{number}{1}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{50--80}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1518/hfes.46.1.50_30392}
+\showDOI{\tempurl}
+
+
+\bibitem[Liang et~al\mbox{.}(2023)]%
+        {liang2023code}
+\bibfield{author}{\bibinfo{person}{Jacky Liang}, \bibinfo{person}{Wenlong
+  Huang}, \bibinfo{person}{Fei Xia}, \bibinfo{person}{Peng Xu},
+  \bibinfo{person}{Karol Hausman}, \bibinfo{person}{Brian Ichter},
+  \bibinfo{person}{Pete Florence}, {and} \bibinfo{person}{Andy Zeng}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Code as Policies: Language Model Programs for
+  Embodied Control}. In \bibinfo{booktitle}{\emph{2023 IEEE International
+  Conference on Robotics and Automation (ICRA)}}. \bibinfo{pages}{9493--9500}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICRA48891.2023.10160591}
+\showDOI{\tempurl}
+
+
+\bibitem[Liao and Vaughan(2024)]%
+        {liao2024transparency}
+\bibfield{author}{\bibinfo{person}{Q.~Vera Liao} {and}
+  \bibinfo{person}{Jennifer~Wortman Vaughan}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{AI} Transparency in the Age of {LLMs}: A
+  Human-Centered Research Roadmap}.
+\newblock \bibinfo{journal}{\emph{Harvard Data Science Review}}
+  \bibinfo{number}{Special Issue 5} (\bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1162/99608f92.8036d03b}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2024)]%
+        {liu2024lost}
+\bibfield{author}{\bibinfo{person}{Nelson~F. Liu}, \bibinfo{person}{Kevin Lin},
+  \bibinfo{person}{John Hewitt}, \bibinfo{person}{Ashwin Paranjape},
+  \bibinfo{person}{Michele Bevilacqua}, \bibinfo{person}{Fabio Petroni}, {and}
+  \bibinfo{person}{Percy Liang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Lost in the Middle: How Language Models Use Long
+  Contexts}.
+\newblock \bibinfo{journal}{\emph{Transactions of the Association for
+  Computational Linguistics}}  \bibinfo{volume}{12} (\bibinfo{year}{2024}),
+  \bibinfo{pages}{157--173}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1162/tacl_a_00638}
+\showDOI{\tempurl}
+
+
+\bibitem[Luger and Sellen(2016)]%
+        {luger2016like}
+\bibfield{author}{\bibinfo{person}{Ewa Luger} {and} \bibinfo{person}{Abigail
+  Sellen}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{``Like Having a Really Bad {PA}'': The Gulf between
+  User Expectation and Experience of Conversational Agents}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{5286--5297}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2858036.2858288}
+\showDOI{\tempurl}
+
+
+\bibitem[McDonald et~al\mbox{.}(2019)]%
+        {mcdonald2019reliability}
+\bibfield{author}{\bibinfo{person}{Nora McDonald}, \bibinfo{person}{Sarita
+  Schoenebeck}, {and} \bibinfo{person}{Andrea Forte}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Reliability and Inter-rater Reliability in
+  Qualitative Research: Norms and Guidelines for {CSCW} and {HCI} Practice}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{1--23}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3359174}
+\showDOI{\tempurl}
+
+
+\bibitem[Miller(2019)]%
+        {miller2019explanation}
+\bibfield{author}{\bibinfo{person}{Tim Miller}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Explanation in Artificial Intelligence: Insights
+  from the Social Sciences}.
+\newblock \bibinfo{journal}{\emph{Artificial Intelligence}}
+  \bibinfo{volume}{267} (\bibinfo{year}{2019}), \bibinfo{pages}{1--38}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.artint.2018.07.007}
+\showDOI{\tempurl}
+
+
+\bibitem[Nass and Moon(2000)]%
+        {nass2000machines}
+\bibfield{author}{\bibinfo{person}{Clifford Nass} {and}
+  \bibinfo{person}{Youngme Moon}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Machines and Mindlessness: Social Responses to
+  Computers}.
+\newblock \bibinfo{journal}{\emph{Journal of Social Issues}}
+  \bibinfo{volume}{56}, \bibinfo{number}{1} (\bibinfo{year}{2000}),
+  \bibinfo{pages}{81--103}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1111/0022-4537.00153}
+\showDOI{\tempurl}
+
+
+\bibitem[Newcombe(1998)]%
+        {newcombe1998interval}
+\bibfield{author}{\bibinfo{person}{Robert~G. Newcombe}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Interval Estimation for the Difference between
+  Independent Proportions: Comparison of Eleven Methods}.
+\newblock \bibinfo{journal}{\emph{Statistics in Medicine}}
+  \bibinfo{volume}{17}, \bibinfo{number}{8} (\bibinfo{year}{1998}),
+  \bibinfo{pages}{873--890}.
+\newblock
+
+
+\bibitem[Norman(2013)]%
+        {norman2013design}
+\bibfield{author}{\bibinfo{person}{Don Norman}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Design of Everyday Things: Revised and
+  Expanded Edition}}.
+\newblock \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA}.
+\newblock
+
+
+\bibitem[Norman(1983)]%
+        {norman1983some}
+\bibfield{author}{\bibinfo{person}{Donald~A. Norman}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{Some Observations on Mental Models}.
+\newblock In \bibinfo{booktitle}{\emph{Mental Models}},
+  \bibfield{editor}{\bibinfo{person}{Dedre Gentner} {and}
+  \bibinfo{person}{Albert~L. Stevens}} (Eds.). \bibinfo{publisher}{Lawrence
+  Erlbaum Associates}, \bibinfo{address}{Hillsdale, NJ},
+  \bibinfo{pages}{7--14}.
+\newblock
+
+
+\bibitem[Parasuraman and Riley(1997)]%
+        {parasuraman1997humans}
+\bibfield{author}{\bibinfo{person}{Raja Parasuraman} {and}
+  \bibinfo{person}{Victor Riley}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Humans and Automation: Use, Misuse, Disuse, Abuse}.
+\newblock \bibinfo{journal}{\emph{Human Factors}} \bibinfo{volume}{39},
+  \bibinfo{number}{2} (\bibinfo{year}{1997}), \bibinfo{pages}{230--253}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1518/001872097778543886}
+\showDOI{\tempurl}
+
+
+\bibitem[Pearson(1900)]%
+        {pearson1900criterion}
+\bibfield{author}{\bibinfo{person}{Karl Pearson}.}
+  \bibinfo{year}{1900}\natexlab{}.
+\newblock \showarticletitle{On the Criterion that a Given System of Deviations
+  from the Probable in the Case of a Correlated System of Variables Is Such
+  that It Can Be Reasonably Supposed to Have Arisen from Random Sampling}.
+\newblock \bibinfo{journal}{\emph{The London, Edinburgh, and Dublin
+  Philosophical Magazine and Journal of Science}} \bibinfo{volume}{50},
+  \bibinfo{number}{302} (\bibinfo{year}{1900}), \bibinfo{pages}{157--175}.
+\newblock
+
+
+\bibitem[Perry et~al\mbox{.}(2023)]%
+        {perry2023users}
+\bibfield{author}{\bibinfo{person}{Neil Perry}, \bibinfo{person}{Megha
+  Srivastava}, \bibinfo{person}{Deepak Kumar}, {and} \bibinfo{person}{Dan
+  Boneh}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Do Users Write More Insecure Code with {AI}
+  Assistants?}. In \bibinfo{booktitle}{\emph{Proceedings of the 2023 ACM SIGSAC
+  Conference on Computer and Communications Security (CCS)}}.
+  \bibinfo{pages}{2785--2799}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3576915.3623157}
+\showDOI{\tempurl}
+
+
+\bibitem[Preece et~al\mbox{.}(2023)]%
+        {preece2023interaction}
+\bibfield{author}{\bibinfo{person}{Jennifer Preece}, \bibinfo{person}{Yvonne
+  Rogers}, {and} \bibinfo{person}{Helen Sharp}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Interaction Design: Beyond Human-Computer
+  Interaction} (\bibinfo{edition}{6th} ed.)}.
+\newblock \bibinfo{publisher}{John Wiley \& Sons},
+  \bibinfo{address}{Indianapolis, IN}.
+\newblock
+
+
+\bibitem[Salem et~al\mbox{.}(2015)]%
+        {salem2015would}
+\bibfield{author}{\bibinfo{person}{Maha Salem}, \bibinfo{person}{Gabriella
+  Lakatos}, \bibinfo{person}{Farshid Amirabdollahian}, {and}
+  \bibinfo{person}{Kerstin Dautenhahn}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Would You Trust a (Faulty) Robot? Effects of Error,
+  Task Type and Personality on Human-Robot Cooperation and Trust}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 10th Annual ACM/IEEE
+  International Conference on Human-Robot Interaction (HRI)}}.
+  \bibinfo{pages}{141--148}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2696454.2696497}
+\showDOI{\tempurl}
+
+
+\bibitem[Singh et~al\mbox{.}(2023)]%
+        {singh2023progprompt}
+\bibfield{author}{\bibinfo{person}{Ishika Singh}, \bibinfo{person}{Valts
+  Blukis}, \bibinfo{person}{Arsalan Mousavian}, \bibinfo{person}{Ankit Goyal},
+  \bibinfo{person}{Danfei Xu}, \bibinfo{person}{Jonathan Tremblay},
+  \bibinfo{person}{Dieter Fox}, \bibinfo{person}{Jesse Thomason}, {and}
+  \bibinfo{person}{Animesh Garg}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{ProgPrompt}: Generating Situated Robot Task Plans
+  using Large Language Models}. In \bibinfo{booktitle}{\emph{2023 IEEE
+  International Conference on Robotics and Automation (ICRA)}}.
+  \bibinfo{pages}{11523--11530}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICRA48891.2023.10161317}
+\showDOI{\tempurl}
+
+
+\bibitem[Tabrez et~al\mbox{.}(2020)]%
+        {tabrez2020survey}
+\bibfield{author}{\bibinfo{person}{Aaquib Tabrez}, \bibinfo{person}{Matthew~B.
+  Luebbers}, {and} \bibinfo{person}{Bradley Hayes}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A Survey of Mental Modeling Techniques in
+  Human--Robot Teaming}.
+\newblock \bibinfo{journal}{\emph{Current Robotics Reports}}
+  \bibinfo{volume}{1}, \bibinfo{number}{4} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{259--267}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1007/s43154-020-00019-0}
+\showDOI{\tempurl}
+
+
+\bibitem[Treagust(1988)]%
+        {treagust1988development}
+\bibfield{author}{\bibinfo{person}{David~F. Treagust}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Development and Use of Diagnostic Tests to Evaluate
+  Students' Misconceptions in Science}.
+\newblock \bibinfo{journal}{\emph{International Journal of Science Education}}
+  \bibinfo{volume}{10}, \bibinfo{number}{2} (\bibinfo{year}{1988}),
+  \bibinfo{pages}{159--169}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1080/0950069880100204}
+\showDOI{\tempurl}
+
+
+\bibitem[Vaithilingam et~al\mbox{.}(2022)]%
+        {vaithilingam2022expectation}
+\bibfield{author}{\bibinfo{person}{Priyan Vaithilingam},
+  \bibinfo{person}{Tianyi Zhang}, {and} \bibinfo{person}{Elena~L. Glassman}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Expectation vs.\ Experience: Evaluating the
+  Usability of Code Generation Tools Powered by Large Language Models}. In
+  \bibinfo{booktitle}{\emph{Extended Abstracts of the 2022 CHI Conference on
+  Human Factors in Computing Systems}}. \bibinfo{pages}{1--7}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3491101.3519665}
+\showDOI{\tempurl}
+
+
+\bibitem[Vemprala et~al\mbox{.}(2024)]%
+        {vemprala2024chatgpt}
+\bibfield{author}{\bibinfo{person}{Sai Vemprala}, \bibinfo{person}{Rogerio
+  Bonatti}, \bibinfo{person}{Arthur Bucker}, {and} \bibinfo{person}{Ashish
+  Kapoor}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{ChatGPT} for Robotics: Design Principles and Model
+  Abilities}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}}  \bibinfo{volume}{12}
+  (\bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Wilson(1927)]%
+        {wilson1927probable}
+\bibfield{author}{\bibinfo{person}{Edwin~B. Wilson}.}
+  \bibinfo{year}{1927}\natexlab{}.
+\newblock \showarticletitle{Probable Inference, the Law of Succession, and
+  Statistical Inference}.
+\newblock \bibinfo{journal}{\emph{J. Amer. Statist. Assoc.}}
+  \bibinfo{volume}{22}, \bibinfo{number}{158} (\bibinfo{year}{1927}),
+  \bibinfo{pages}{209--212}.
+\newblock
+
+
+\bibitem[Wobbrock and Kientz(2016)]%
+        {wobbrock2016research}
+\bibfield{author}{\bibinfo{person}{Jacob~O. Wobbrock} {and}
+  \bibinfo{person}{Julie~A. Kientz}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Research Contributions in Human-Computer
+  Interaction}.
+\newblock \bibinfo{journal}{\emph{Interactions}} \bibinfo{volume}{23},
+  \bibinfo{number}{3} (\bibinfo{year}{2016}), \bibinfo{pages}{38--44}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2907069}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}
