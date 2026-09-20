@@ -44,9 +44,9 @@
 \medskip\noindent\textbf{Q1.} Which of these happen between pressing Send and the rover moving? Select all that apply. {\footnotesize[multi-select; id \texttt{normal\_multi}]}\par
 \begin{itemize}
 \item[$\square$] The request is checked against what the rover is physically able to do
-\item[$\square$] An AI agent interprets the sentence and produces a control program
-\item[$\square$] That program is checked before it is sent to the rover
-\item[$\square$] The program is deployed (flashed) to the rover's board
+\item[$\square$] An AI agent interprets the sentence and picks the matching predefined function
+\item[$\square$] That function call is checked before it is sent to the rover
+\item[$\square$] The chosen function is loaded onto the rover's board
 \item[$\square$] The rover's own board reads and interprets the English sentence directly
 \item[$\square$] The rover looks up how other users phrased similar commands
 \end{itemize}
@@ -54,7 +54,7 @@
 \medskip\noindent\textbf{Q3.} True or false? {\footnotesize[true/false or placement grid; id \texttt{normal\_grid}]}\par
 \begin{itemize}
 \item The natural-language sentence is understood on the rover's board (the ESP32). \hfill {\footnotesize (True / False / Not sure)}
-\item A control program is produced for the command each time it is sent. \hfill {\footnotesize (True / False / Not sure)}
+\item Each command is matched to a function that already exists on the rover; no new program is written. \hfill {\footnotesize (True / False / Not sure)}
 \item The rover is told what it can do through a registered list of its hardware capabilities. \hfill {\footnotesize (True / False / Not sure)}
 \end{itemize}
 \medskip\noindent\textbf{Conf.} How confident are you in your answers in this section? {\footnotesize[confidence (1--5); id \texttt{normal\_conf}]}\par
@@ -73,9 +73,9 @@
 \item[$\circ$] Your command never reached the system (input)
 \item[$\circ$] The system decided the rover can't do this (capability check)
 \item[$\circ$] The AI agent couldn't interpret the request (agent / reasoning)
-\item[$\circ$] The program the agent produced was rejected by checks before deployment (code validation)
-\item[$\circ$] The program couldn't be uploaded to the rover (deployment)
-\item[$\circ$] The rover ran the program but no motion was confirmed (execution \& feedback)
+\item[$\circ$] The function call the agent chose was rejected by checks before loading (call validation)
+\item[$\circ$] The chosen function couldn't be loaded onto the rover (loading)
+\item[$\circ$] The rover ran the function but no motion was confirmed (execution \& feedback)
 \item[$\circ$] I'm not sure
 \end{itemize}
 \medskip\noindent\textbf{Q2.} Which explanation best fits why the rover did not move? {\footnotesize[single choice; id \texttt{wm2\_cause}]}\par
@@ -83,13 +83,13 @@
 \item[$\circ$] The motors or wheels are broken
 \item[$\circ$] The rover understood but decided not to move
 \item[$\circ$] My wording was wrong and a different phrasing would have worked
-\item[$\circ$] The control program that was generated had an error and was rejected, so the rover never received it
+\item[$\circ$] The agent picked a function that is not in the rover's function set, so the call was rejected and the rover never received it
 \item[$\circ$] I'm not sure
 \end{itemize}
 \medskip\noindent\textbf{Q3.} True or false? {\footnotesize[true/false or placement grid; id \texttt{wm2\_grid}]}\par
 \begin{itemize}
 \item If the rover does not move, the motors must be faulty. \hfill {\footnotesize (True / False / Not sure)}
-\item In this attempt the rover's board was flashed with a new program. \hfill {\footnotesize (True / False / Not sure)}
+\item In this attempt the selected function was loaded onto the rover's board. \hfill {\footnotesize (True / False / Not sure)}
 \item Different kinds of fault can look identical from the outside: the rover just doesn't move. \hfill {\footnotesize (True / False / Not sure)}
 \item Replacing the motors would fix this failure. \hfill {\footnotesize (True / False / Not sure)}
 \item The same command can succeed later once the underlying fault is removed. \hfill {\footnotesize (True / False / Not sure)}
@@ -118,7 +118,7 @@
 \begin{itemize}
 \item What the rover can do is limited by the hardware registered on its board, not only by how capable the AI is. \hfill {\footnotesize (True / False / Not sure)}
 \item A more capable AI model would let the rover see without a camera. \hfill {\footnotesize (True / False / Not sure)}
-\item The system generated motion code for this request, tried it, and failed to find the ball. \hfill {\footnotesize (True / False / Not sure)}
+\item The system picked a movement function for this request, tried it, and failed to find the ball. \hfill {\footnotesize (True / False / Not sure)}
 \item The refusal means the rover is broken. \hfill {\footnotesize (True / False / Not sure)}
 \item This rover has no camera, microphone, distance sensor or gripper. \hfill {\footnotesize (True / False / Not sure)}
 \end{itemize}
@@ -174,7 +174,7 @@
 \medskip\noindent\textbf{Q1.} Where is ``Turn left'' turned into something the rover can execute? {\footnotesize[single choice; id \texttt{wm6\_where}]}\par
 \begin{itemize}
 \item[$\circ$] Inside the rover's board (ESP32) --- it understands the sentence itself
-\item[$\circ$] In an external AI agent that produces a control program, which is then deployed to the board
+\item[$\circ$] In an external AI agent that picks the matching function, which is then loaded on the board
 \item[$\circ$] In the motors or wheel controller
 \item[$\circ$] In the web page I typed into
 \item[$\circ$] I'm not sure
@@ -183,7 +183,7 @@
 \begin{itemize}
 \item[$\circ$] The rover understood but chose not to act
 \item[$\circ$] The rover hardware has failed
-\item[$\circ$] The connection to the external agent timed out, so no new program was produced, though the board stayed connected
+\item[$\circ$] The connection to the external agent timed out, so no function was selected, though the board stayed connected
 \item[$\circ$] The rover refused because turning left is unsafe
 \item[$\circ$] I'm not sure
 \end{itemize}
@@ -191,7 +191,7 @@
 \begin{itemize}
 \item A connected board can interpret any new English request on its own. \hfill {\footnotesize (True / False / Not sure)}
 \item Restoring the agent connection, not repairing the rover, is what was needed. \hfill {\footnotesize (True / False / Not sure)}
-\item No new program was generated in this attempt. \hfill {\footnotesize (True / False / Not sure)}
+\item No function was selected in this attempt. \hfill {\footnotesize (True / False / Not sure)}
 \item The rover ``decided'' not to turn. \hfill {\footnotesize (True / False / Not sure)}
 \end{itemize}
 \medskip\noindent\textbf{Q4.} Who or what decides how a typed sentence becomes robot motion? Why could a connected robot still not act? {\footnotesize[open-ended; id \texttt{wm6\_open}]}\par
@@ -219,7 +219,7 @@
 \item A rule in the system can change even though I did nothing differently. \hfill {\footnotesize (True / False / Not sure)}
 \item Sending the identical 4-second command again will eventually succeed. \hfill {\footnotesize (True / False / Not sure)}
 \item A shorter command (e.g. 2 seconds) would still be allowed. \hfill {\footnotesize (True / False / Not sure)}
-\item The 4-second program was flashed and then stopped part-way. \hfill {\footnotesize (True / False / Not sure)}
+\item The 4-second command was loaded and then stopped part-way. \hfill {\footnotesize (True / False / Not sure)}
 \end{itemize}
 \medskip\noindent\textbf{Q3.} What do you think changed between the first and second attempt, and how could you find out? {\footnotesize[open-ended; id \texttt{wm7\_open}]}\par
 \medskip\noindent\textbf{Conf.} How confident are you in your answers in this section? {\footnotesize[confidence (1--5); id \texttt{wm7\_conf}]}\par
@@ -276,7 +276,7 @@
 \medskip\noindent\textbf{Q1.} Which explanation fits best? {\footnotesize[single choice; id \texttt{wm1\_why}]}\par
 \begin{itemize}
 \item[$\circ$] The robot's hardware is failing
-\item[$\circ$] The agent that interprets language and writes code may handle some languages less reliably, while the same hardware works fine
+\item[$\circ$] The agent that interprets language and picks the function may handle some languages less reliably, while the same hardware works fine
 \item[$\circ$] The rover's board only understands English because English is built into it
 \item[$\circ$] The robot has gotten worse over time
 \item[$\circ$] I'm not sure
@@ -294,10 +294,10 @@
 \medskip\noindent\textbf{Q1.} Which part of the system does each job? {\footnotesize[true/false or placement grid; id \texttt{arch\_place}]}\par
 \begin{itemize}
 \item Interprets the meaning of the English sentence \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
-\item Writes the control program \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
+\item Chooses which predefined function to run \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
 \item Keeps track of earlier commands (context) \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
-\item Checks the program before it is sent to the rover \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
-\item Physically drives the motors when the program runs \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
+\item Checks the chosen function call before it is sent to the rover \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
+\item Physically drives the motors when the function runs \hfill {\footnotesize (The rover's board (ESP32) / External agent / middle layer / Not sure)}
 \end{itemize}
 \medskip\noindent\textbf{Q2.} True or false? {\footnotesize[true/false or placement grid; id \texttt{arch\_grid}]}\par
 \begin{itemize}

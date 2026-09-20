@@ -47,7 +47,7 @@ OVERALL & Putting it together & -- & -- & -- & -- & -- & --\\
 
 
 \begin{table*}[t]
-\caption{Fault localization (item \texttt{wm2\_stage}). The true layer is Code Validation; every other row is a mislocalization.}\label{tab:resp-stage}
+\caption{Fault localization (item \texttt{wm2\_stage}). The true layer is Call Validation; every other row is a mislocalization.}\label{tab:resp-stage}
 \small
 \begin{tabular}{p{7.5cm}rrr}
 \toprule
@@ -56,9 +56,9 @@ Layer chosen & All & A opaque & B transparent\\
 Your command never reached the system & -- & -- & --\\
 The system decided the rover can't do this & -- & -- & --\\
 The AI agent couldn't interpret the request & -- & -- & --\\
-\textbf{The program the agent produced was rejected by checks before deployment} (true) & -- & -- & --\\
-The program couldn't be uploaded to the rover & -- & -- & --\\
-The rover ran the program but no motion was confirmed & -- & -- & --\\
+\textbf{The function call the agent chose was rejected by checks before loading} (true) & -- & -- & --\\
+The chosen function couldn't be loaded onto the rover & -- & -- & --\\
+The rover ran the function but no motion was confirmed & -- & -- & --\\
 I'm not sure & -- & -- & --\\
 \midrule $n$ & -- & -- & --\\
 \bottomrule
