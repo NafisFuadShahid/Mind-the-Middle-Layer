@@ -1,4 +1,4 @@
-name: Publish RoverLens
+name: Publish Middle Layer
 
 on:
   push:
@@ -39,6 +39,6 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: dist
-      - name: Publish RoverLens
+      - name: Publish Middle Layer
         id: deployment
         uses: actions/deploy-pages@v4
